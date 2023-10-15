@@ -1,0 +1,183 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+/* common for header and footer */
+.headfoot {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* header */
+header {
+    padding: 1.8rem;
+    background-color: rgb(25, 167, 161);
+}
+
+/* heading in header */
+header h1 {
+    color: rgb(245, 245, 245);
+    margin: 0;
+    font-size: 2rem;
+    text-shadow: 1px 1px 4px transparent;
+    font-weight: bolder;
+
+}
+
+/* link parent */
+.link_parent {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: rgba(211, 211, 211, 1);
+}
+
+/* link children */
+.link_child {
+    display: inline-block;
+}
+
+main {
+    margin: 0 auto;
+}
+
+/* button isnide nav bar */
+.btn_2 {
+    padding: 0.5rem;
+    border: none;
+    font-size: 0.8rem;
+}
+
+.btn_2:hover {
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+
+
+/* heading in section 1 and 2 */
+.heading_1 {
+    margin: 0;
+
+    text-align: center;
+
+    font-size: 2.2rem;
+    font-weight: 900;
+
+}
+
+/* common color */
+.clr_1 {
+    color: rgba(128, 128, 128, 1);
+    text-align: center;
+}
+
+/* common button */
+.btn_1 {
+    background-color: rgba(128, 128, 128, 1);
+    display: inline-block;
+    color: rgba(221, 237, 247, 1);
+    margin: 0 auto;
+    border-radius: 2px;
+    border: none;
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+}
+
+a.btn_1:hover {
+    background-color: rgb(110, 106, 106);
+
+}
+
+/* common section */
+.section {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+
+.section_1 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+/* para 1 */
+.para_1 {
+
+    font-size: 1.2rem;
+
+}
+
+/* para 1 */
+.para_2 {
+
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    ;
+
+}
+
+/* images */
+
+.image_gallery img {
+    max-width: 300px;
+}
+
+.image_gallery {
+    padding: 0.5rem;
+}
+
+.section_4 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+/* card */
+
+.card {
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 1);
+    padding: 1rem;
+    margin: 0 auto;
+    width: 25rem;
+    flex-direction: column;
+    margin: 2rem;
+    align-items: center;
+}
+
+
+.card p {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+.card img {
+    max-width: 18rem;
+    display: inline-block;
+}
+
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: rgb(128, 128, 128);
+    padding: 0.5rem;
+    color: rgba(243, 244, 240, 1);
+    font-weight: normal;
+}
